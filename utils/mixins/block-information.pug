@@ -1,0 +1,8 @@
+mixin block-information(image, imageText, title, description, action)
+  .card
+    .card__icon
+      img(src=image, alt=imageText)
+    .card__information
+      p.card__title=title
+      p.card__description=description
+      a=action

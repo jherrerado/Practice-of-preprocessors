@@ -1,0 +1,227 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "GT America Standard", sans-serif;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "GT America Standard", sans-serif;
+}
+
+header {
+  width: 100%;
+  height: 88px;
+  background-color: #000;
+}
+header .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  padding: 0 15px 0 15px;
+}
+
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.logo__main img {
+  width: 126px;
+  height: 32px;
+}
+.logo__title {
+  margin: 4px 0 0 7px;
+  padding-left: 5px;
+  font-size: 2.4rem;
+  text-decoration: none;
+  color: #fff;
+  border-left: 2px solid #fff;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 5px;
+  color: #fff;
+}
+.nav__search {
+  font-size: 24px;
+}
+.nav__menu {
+  font-size: 24px;
+}
+.nav .request {
+  display: none;
+}
+.nav .sing-in {
+  display: none;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "GT America Standard", sans-serif;
+}
+
+.banner {
+  max-width: 100%;
+  padding: 80px 15px 115px 15px;
+  text-align: center;
+  background-color: #dadbf1;
+}
+.banner__h1 {
+  margin-bottom: 50px;
+  font-size: 3.5rem;
+}
+.banner__input {
+  width: 90%;
+  min-width: 290px;
+  max-width: 720px;
+  border: 1.5px solid #000;
+  border-radius: 5px;
+  padding: 16px;
+  font-size: 2rem;
+  -webkit-box-shadow: 0 9px 14px 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 0 9px 14px 0 rgba(0, 0, 0, 0.1);
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "GT America Standard", sans-serif;
+}
+
+.services {
+  width: 100%;
+  padding: 20px 0 100px 0;
+}
+.services .container {
+  padding: 0 15px 0 15px;
+}
+.services .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 0 15px 0 5px;
+}
+.services .card__icon {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin: 50px 24px 0 0;
+  min-width: 68px;
+  max-width: 84px;
+}
+.services .card__icon img {
+  width: 100%;
+}
+.services .card__information {
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+}
+.services .card__information p {
+  margin-bottom: 20px;
+  font-size: 2.4rem;
+  line-height: 32px;
+}
+.services .card__information a {
+  font-size: 2rem;
+  font-weight: 300;
+  color: #4C5FD5;
+}
+.services .card__title {
+  margin: 46px 0 16px 0;
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+.services .card__description {
+  width: 80%;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "GT America Standard", sans-serif;
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+}
+footer .container {
+  margin: 0 15px 0 15px;
+  padding-bottom: 28px;
+}
+footer .footer-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+footer .footer-menu p {
+  margin: 48px 0 16px 0;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 28px;
+}
+footer .footer-menu a {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 24px;
+}
+footer .footer-menu .footer-menu-card {
+  width: calc(50% - 83px);
+  margin-right: 80px;
+}

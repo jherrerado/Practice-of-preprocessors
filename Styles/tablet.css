@@ -1,0 +1,31 @@
+header .container {
+  padding: 0 30px 0 30px;
+}
+
+.services .container {
+  padding: 0 30px 0 30px;
+}
+.services .information-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 80%;
+  max-width: 1630px;
+  margin: 128px auto 0 auto;
+}
+.services .card {
+  margin-bottom: 48px;
+}
+
+footer .container {
+  margin: 0 30px 0 30px;
+}
+footer .container .footer-menu {
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+footer .container .footer-menu-card {
+  margin-right: 0;
+}

@@ -1,0 +1,54 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "GT America Standard", sans-serif;
+}
+
+header .container {
+  padding: 0 78px 0 78px;
+}
+header .nav__search {
+  display: none;
+}
+header .nav__menu {
+  display: none;
+}
+header .nav .request {
+  display: block;
+}
+header .nav .request button {
+  padding: 6px 22px 6px 22px;
+  border: 2px solid #fff;
+  margin-right: 15px;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 20px;
+  background: #1d1d1d;
+}
+header .nav .sing-in {
+  display: block;
+}
+header .nav .sing-in button {
+  padding: 6px 32px 6px 32px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 20px;
+  background: #4C5FD5;
+}
+
+.services .card {
+  width: 50%;
+  max-width: 815px;
+}
+
+footer .footer-menu {
+  max-width: 1500px;
+  padding-bottom: 100px;
+}
